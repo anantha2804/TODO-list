@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="nav">
+        <div class="logo"><img src="images/to-do-list.png" alt="" /></div>
+        <div
+          class="pageName"
+          style="
+            text-align: center;
+            text-shadow: 0 0 #eaeef1, 0 0 2px #0c0c0f00;
+            color: rgb(244, 242, 250);
+          "
+        >
+          <h2>TODO <br />List</h2>
+        </div>
+
+        <div class="profilePicture"><img src="images/man.png" alt="" /></div>
+      </div>
+      <div class="addCard">
+        <div class="content">
+          <div class="title">
+            <input
+              type="text"
+              placeholder="Title"
+              style="width: 300px; height: 30px"
+            />
+          </div>
+          <div class="description">
+            <input type="text" style="width: 300px; height: 60px" />
+          </div>
+        </div>
+        <div class="button">
+          <button>ADD Card</button>
+        </div>
+      </div>
+      <div class="cards"></div>
+      <div class="popup" id="popup">
+        <div
+          style="
+            background-color: rgb(253, 254, 255);
+            padding: 4px;
+            margin: 3px;
+            text-align: center;
+            border: 2px solid black;
+          "
+        >
+          EDIT CARD
+        </div>
+        <div class="popupTitle">
+          <label for="">Title</label>
+          <input type="text" name="" id="" />
+        </div>
+        <div class="popupDescription">
+          <label for="">Description</label>
+          <input type="text" />
+        </div>
+        <div><button class="saveChanges">Save Changes</button></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
